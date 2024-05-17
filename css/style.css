@@ -39,3 +39,40 @@
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.awesome-site {
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px;
+    gap: 20px;
+}
+
+.awesome-site img {
+    width: 800px;
+    height: 300px;
+}
+
+.awesome-site #main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.awesome-site span {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.textAndButton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textAndButton button {
+    background-color: #3882F6;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 10%;
+    margin-top: 8px;
+}
