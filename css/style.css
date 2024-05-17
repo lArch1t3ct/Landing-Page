@@ -27,3 +27,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer span {
+    font-size: 18px;
+    color: #E5E7EB;
+}
