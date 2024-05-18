@@ -121,7 +121,9 @@
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 5% 25%;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
 }
 
 p#quoteText {
@@ -129,10 +131,13 @@ p#quoteText {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    max-width: 780px;
 }
 
 p#quoteAuthor {
-    align-self: flex-end;
+    align-self: center;
+    font-weight: bold;
+    margin-left: 50%;
 }
 
 .signup {
