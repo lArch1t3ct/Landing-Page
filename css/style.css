@@ -141,23 +141,27 @@ p#quoteAuthor {
 
 .card {
     background-color: #3882F6;
-    padding: 16px 32px;
+    padding: 36px;
+    border-radius: 8px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 16px;
 }
 
 .card button {
-    padding: 0 16px;
+    padding: 4px 24px;
     border-radius: 4px;
     border-color: white;
     background-color: #3882F6;
     color: white;
+    flex-shrink: 0;
 }
 
 .text {
     display: flex;
     flex-direction: column;
+    flex-basis: 600px;
 }
 .text #maintext{
     color: white;
@@ -165,6 +169,5 @@ p#quoteAuthor {
 }
 
 .text #subtext {
-    color: white;
-    font-weight: lighter;
+    color: #E5E7EB;
 }
