@@ -77,3 +77,40 @@
     border-radius: 10%;
     margin-top: 8px;
 }
+
+.illustration img {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 8px 32px;
+}
+
+.random-info #informationHeader {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.mycards {
+    display: flex;
+    gap: 32px;
+}
+
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration span {
+    width: 150px;
+}
+
+
